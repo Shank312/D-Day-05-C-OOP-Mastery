@@ -1,0 +1,9 @@
+
+🧬 INHERITANCE TYPES
+- Inheritance affects how base class members are inherited in the derived class.
+
+| Inheritance Type | `public` Base → Derived    | `protected` Base → Derived | `private` Base → Derived |
+| ---------------- | -------------------------- | -------------------------- | ------------------------ |
+| `public`         | public stays public        | protected stays protected  | private                  |
+| `protected`      | public → protected         | protected stays protected  | private                  |
+| `private`        | public/protected → private | —                          | private                  |
